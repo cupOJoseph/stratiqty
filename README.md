@@ -1,6 +1,11 @@
 # Stratiqty
 LQTY Strategic Reserve Initiative 
 
+## Goals
+1. Force a % of Liquity protocol revenue to buy the LQTY token.
+2. Bury LQTY and buy as much as possible.
+3. Experiment with what an autonomous onchain version of Microstrategy could look like. But for LQTY token instead of BTC (for now).
+
 ## How does it work?
 
 1. The Stratiqty Initiative uses Liquity Governance "initiative" template: https://github.com/liquity/V2-gov/
