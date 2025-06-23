@@ -1,66 +1,18 @@
-## Foundry
+# Stratiqty
+LQTY Strategic Reserve Initiative 
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+## Goals
+1. Force a % of Liquity protocol revenue to buy the LQTY token.
+2. Bury LQTY and buy as much as possible.
+3. Experiment with what an autonomous onchain version of Microstrategy could look like. But for LQTY token instead of BTC (for now).
 
-Foundry consists of:
+## How does it work?
 
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
+1. The Stratiqty Initiative uses Liquity Governance "initiative" template: https://github.com/liquity/V2-gov/
+2. Bribes to the Liquity governance gauges incentivise LQTY stakers to vote on the Stratiqty initiative
+3. The guages automatically direct a small percent of protocol revenue to Initiatives with the most votes.
+4. The Stratiqty initiative sends 100% of BOLD tokens earned from the gauges to a Multi-sig controlled by a group of trusted community members, professional traders, professional risk analysts, and (non-team)
+5. The multi-sig enacts a long-only strategy to buy LQTY strategically and effectively, avoiding MEV and value leakage. 
 
-## Documentation
+If the amount of LQTY in the reserve becomes large enough to warrant the investment in more dev time, we can upgrade the control over the reserve to a delegate DAO or other model instead of a multi-sig.
 
-https://book.getfoundry.sh/
-
-## Usage
-
-### Build
-
-```shell
-$ forge build
-```
-
-### Test
-
-```shell
-$ forge test
-```
-
-### Format
-
-```shell
-$ forge fmt
-```
-
-### Gas Snapshots
-
-```shell
-$ forge snapshot
-```
-
-### Anvil
-
-```shell
-$ anvil
-```
-
-### Deploy
-
-```shell
-$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
-```
-
-### Cast
-
-```shell
-$ cast <subcommand>
-```
-
-### Help
-
-```shell
-$ forge --help
-$ anvil --help
-$ cast --help
-```
