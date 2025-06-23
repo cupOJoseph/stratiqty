@@ -1,0 +1,14 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+# Remappings for dependencies
+remappings = [
+    "@openzeppelin/=lib/V2-gov/lib/openzeppelin-contracts/",
+    "forge-std/=lib/forge-std/src/",
+    "@chimera/=lib/V2-gov/lib/chimera/src/",
+    "v4-core/=lib/V2-gov/lib/v4-core/"
+]
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
